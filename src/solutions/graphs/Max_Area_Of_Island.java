@@ -1,4 +1,4 @@
-package solutions;
+package solutions.graphs;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -34,6 +34,8 @@ public class Max_Area_Of_Island {
                 }
             }
         }
+
+        System.out.println(maxArea);
     }
 
     private void bfs(int[][] grid, int r, int c, Set<String> visited, int[][] directions, int rows, int cols) {
