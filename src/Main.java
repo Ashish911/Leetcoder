@@ -8,10 +8,11 @@ public class Main {
         put(200, "solutions.graphs.Number_Of_Islands");
         put(695, "solutions.graphs.Max_Area_Of_Island");
         put(133, "solutions.graphs.Clone_Graph");
+        put(994, "solutions.graphs.Rotting_Oranges");
     }};
 
     public static void main(String[] args) {
-        String className = problemMap.get(133);
+        String className = problemMap.get(994);
 
         if (className == null) {
             System.out.println("Problem not found.");
