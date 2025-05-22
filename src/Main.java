@@ -9,10 +9,11 @@ public class Main {
         put(695, "solutions.graphs.Max_Area_Of_Island");
         put(133, "solutions.graphs.Clone_Graph");
         put(994, "solutions.graphs.Rotting_Oranges");
+        put(417, "solutions.graphs.Pacific_Atlantic_Water_Flow");
     }};
 
     public static void main(String[] args) {
-        String className = problemMap.get(994);
+        String className = problemMap.get(417);
 
         if (className == null) {
             System.out.println("Problem not found.");
