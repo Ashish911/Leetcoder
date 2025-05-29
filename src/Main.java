@@ -13,10 +13,11 @@ public class Main {
         put(130, "solutions.graphs.Surrounded_Regions");
         put(207, "solutions.graphs.Course_Schedule");
         put(210, "solutions.graphs.Course_Schedule_Two");
+        put(684, "solutions.graphs.Redundant_Connection");
     }};
 
     public static void main(String[] args) {
-        String className = problemMap.get(210);
+        String className = problemMap.get(684);
 
         if (className == null) {
             System.out.println("Problem not found.");
